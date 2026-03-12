@@ -261,5 +261,3 @@ Fix:
 - Set strong `AUTH_SECRET_KEY`.
 - Enforce HTTPS in production.
 
-## License
-Add your project license here.
