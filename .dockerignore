@@ -1,0 +1,18 @@
+.git
+.gitignore
+.venv
+__pycache__
+**/__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.log
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.idea
+.vscode
+dist
+build
+
+# Keep vector_db in build context (do not ignore it).

@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local data
+vector_db/
+misc/chat_history.db
+misc/*.sqlite
+misc/*.sqlite3
+
+# Caches
+.cache/
+**/.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Coverage and logs
+.coverage
+.coverage.*
+htmlcov/
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# Docker local override
+docker-compose.override.yml
+
+vector_db/
