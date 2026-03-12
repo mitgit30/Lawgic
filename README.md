@@ -251,13 +251,5 @@ Fix:
 - Ensure Google OAuth callback points to backend `/auth/google/callback`.
 - Verify `FRONTEND_BASE_URL`, `BACKEND_PUBLIC_URL`, and `GOOGLE_REDIRECT_URI` are consistent.
 
-### Slow first run in Docker
-- Expected during initial dependency/model download.
-- Subsequent runs are faster with persisted caches.
 
-## Security Checklist
-- Rotate exposed API keys/secrets before deployment.
-- Do not commit real `.env`.
-- Set strong `AUTH_SECRET_KEY`.
-- Enforce HTTPS in production.
 
